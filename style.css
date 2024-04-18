@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+  }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+body {
+    font-size: 14px;
+    background-image: url("./images/background.png");
+    background-size: 105% 120%;
+    display: block;
+    height: 97vh;
+  }
+
+  ::backdrop {
+    background-image: url("./images/background.png");
+    background-size: 100% 120%;
+    display: block;
+  }  
+
+@media screen and (orientation:portrait) {
+
+    *{
+        z-index: 2;
+        color: rgb(241, 237, 231);
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./images/background.png");
+        background-size: 170% 110%;
+    }
+    
+
+    .form,
+    #otherBtnDiv,
+    #drinkPhoto,
+    #mainButtonContainer,
+    #clear{
+    display: none;
+    }
+
+    #logoDiv{
+        /*
+        border-bottom: 1vh solid rgb(41, 41, 41);
+        background-color: rgba(0, 0, 0, 0.5);
+        */
+        max-width: 100%;
+        height: 16vh;
+        padding: 3% 0% 0% 0%;
+        
+    }
+
+    img[src="./images/logo.png"]{
+        display: block;
+        margin: auto;
+        height: auto;
+        max-width: 90%;
+    }
+
+
+    #portraitButtonDiv{
+        border: 4px outset rgb(122, 113, 113);
+        margin: 5%;
+        padding: 3%;
+        height: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .portraitButtons{
+        border: 4px outset rgb(122, 113, 113);
+        width: 35vw;
+        height: 12.5vh;
+        font-size: 2vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 2vw;
+        justify-content: center;
+        padding: 6%;
+    }  
+
+    .portraitButtonText{
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+    }
+    
+    #portraitInventoryButton{
+        padding-top: 0%;
+    }
+
+    button, img, p, .grid-item{
+        display: none;
+    }
+
+    #portraitContainer{
+        height: fit-content;
+        border: 1vh outset rgb(25, 85, 104);
+        margin: 0% 10%;
+        text-align: center;
+        background-color: rgb(38, 127, 154, .85);
+        align-items: center;
+        justify-content: center;
+        padding: 8%;
+    }
+
+    h1{
+        display: grid;
+        justify-content: center;
+        height: auto;
+        font-size: 3vh;
+        font-family: monospace;
+        padding: 2%;
+        font-weight: 400;
+        text-shadow: 2px 2px rgb(13, 13, 13);
+    }
+
+    #rotateScreenIcon{
+        display: block;
+        margin: auto;
+        height: 15vh;
+    }
+}
+
+
+@media screen and (max-width: 3088px) and (orientation:landscape) {
+
+/* Initialization */  
+.frozen-buttons, 
+.specialty-buttons, 
+.mocktail-buttons, 
+.happyhour-buttons,
+.monthly-specials-buttons,
+.other-buttons,
+.brunch-buttons,
+.batch-buttons,
+.sangria-buttons, 
+.form-container, 
+.results-container,
+.specials-buttons, 
+#rotateScreenIcon,
+#portraitContainer,
+#portraitButtonDiv,
+#photoDiv,
+#drinkPhoto,
+#drinkTitle,
+#list,
+#recipeDiv,
+#recipeInfoDiv,
+.recipe-container2,
+.recipe-ingredients-container2,
+#logoDiv,
+#clear
+{
+    display: none;
+}
+
+body{
+    display: block;
+    background-image: url("./images/background.png");
+    background-size: 100%;
+}
+
+
+#mainContainter{
+    height: 70%;
+}
+
+
+/* Navigation */
+.nav-containers{
+    margin: 1% auto;
+    width: 95%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buttons{
+    border: 1vh outset rgb(25, 85, 104);
+    color: antiquewhite;
+    background-color: rgb(2, 40, 51);
+    margin: 0 auto;
+    height: 12vh;
+    width: 49%;
+    font-size: 3vh;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.btm-nav-buttons{
+    margin-bottom: 1%;
+    width: 98%;
+}
+
+  
+/* Main Button Container */
+#mainButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1vh outset rgb(25, 85, 104);
+    background-color: rgb(38, 127, 154, .85);
+    margin: auto;
+    width: 90%;
+    height: 55vh;
+    padding: 2%;
+}
+
+.all-buttons{
+    margin: 1.5%;
+    padding: 0% 2%;
+    width: 14vw;
+    height: 20vh;
+    font-size: 2.75vh;
+    border-radius: 12.5%;
+    border: 1vh outset rgb(25, 85, 104);
+    box-shadow: 1px 1px 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88);
+    color: white;
+    background-color: rgba(15, 68, 84, 0.85);
+    cursor: pointer;
+  }
+
+.margarita-buttons{
+    padding: 0% 3.25%;
+}  
+
+.other-buttons{
+    width: 12vw;
+    height: 16vh;
+    margin: 1%;
+}  
+
+.spanRT{
+    font-size: 2vh;
+}
+
+/* Button Divs */
+#margBtnDiv,
+#specialtyBtnDiv,
+#otherBtnDiv,
+.result-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 90vw;
+    overflow: scroll;
+}
+
+#otherBtnDiv{
+    height: 45vh;
+}
+
+#specialtyBtnDiv{
+    width: 80%;
+}
+
+.mocktail-buttons{
+    width: 14vw;
+    height: 20vh;
+}
+
+.form-container{
+    width: 90vw;
+    height: 11vh;
+    display: block;
+}
+
+
+
+/* Search */
+#search{
+    margin: auto 1.5vw auto 0;
+    width: 65vw;
+    height: 5vh;
+    padding: 1%;
+    font-size: 3vh;
+}
+
+#clear{
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 1vh 4vw;
+    background-color: rgba(9, 69, 87, 0.85);
+    font-size: 4vh;
+}
+
+#list{
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+}
+
+.result-item{
+    border-radius: 0%;
+    padding: 1%;
+    width: 80%;
+    height: 8vh;
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+/* Drink Photo & Recipe */
+#drinkTitle{
+    text-shadow: 2px 2px 10px rgb(182, 145, 121, .5), 0 0 10px rgb(182, 145, 121, .5), 0 0 10px rgb(182, 145, 121, .5);
+    color: antiquewhite;
+    font-size: 4vh;
+    text-decoration: underline;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+#photoDiv{
+    border: 2px solid purple;
+    width: 50vw;
+    height: 43vh;
+}
+
+#drinkPhoto{
+    margin-bottom: 5vh;
+    border: 1vh outset rgb(25, 85, 104);
+    box-shadow: 1px 1px 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88);
+    max-width: auto;
+    height: 45vh;
+    /*display: block;*/
+}
+
+img[src="./images/logo.png"]{
+    padding: 2%;
+    max-height: 20%;
+    background-color: black;
+}
+
+/* Recipe Section */
+#recipeDiv {
+    display: none;
+    color: antiquewhite;
+    margin-left: 5%;
+    width: 40%;                    
+    height: 85%;
+    padding-left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    justify-content: left;
+}
+
+#recipeInfoDiv{
+    border-left: 1px solid antiquewhite;
+    border-right: 1px solid antiquewhite;
+    max-width: auto;
+    height: 40vh;
+    width: 28%;                    
+    height: 75%;
+    color: antiquewhite;
+    font-size: 3.3vh;
+    margin-bottom: 2%;
+    margin-right: 3vw;
+    padding: 1%;
+}
+
+.recipe-container{
+    display: grid;
+    grid-template-columns: auto; /*dont need the extra columns fix later*/
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
+    column-gap: 1.5vw;
+    height: 100%;
+    font-size: 3.5vh;
+}
+
+#glass{
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+}
+
+#glassRecipe{
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    justify-self: left;
+}
+
+#rim{
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: left;
+}
+
+#rimRecipe{
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    justify-self: left;
+}
+
+#liquor{
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: left;
+}
+
+#liquorRecipe{
+    grid-column: 2 / span 2;
+    grid-row: 3;
+    justify-self: left;
+}
+
+#liquorRecipe2{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 4;
+    justify-self: left;
+}
+
+#liquorRecipe3{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 5;
+    justify-self: left;
+}
+
+#liquorRecipe4{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 6;
+    justify-self: left;
+}
+
+#liquorRecipe5{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 7;
+    justify-self: left;
+}
+
+#liqueur{
+    grid-column: 1;
+    grid-row: 8;
+    justify-self: left;
+}
+
+#liqueurRecipe{
+    grid-column: 2 / span 2;
+    grid-row: 8;
+    justify-self: left;
+}
+
+#liqueurRecipe2{
+    grid-column: 2 / span 2;
+    grid-row: 9;
+    justify-self: left;
+}
+
+#liqueurRecipe3{
+    grid-column: 2 / span 2;
+    grid-row: 10;
+    justify-self: left;
+}
+
+#mixers{
+    grid-column: 1;
+    grid-row: 11;
+    justify-self: left;
+}
+
+#mixersRecipe{
+    grid-column: 2 / span 2;
+    grid-row: 11;
+    justify-self: left;
+}
+
+#mixersRecipe2{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 12;
+    justify-self: left;
+}
+
+#mixersRecipe3{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 13;
+    justify-self: left;
+}
+
+#mixersRecipe4{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 14;
+    justify-self: left;
+}
+
+#mixersRecipe5{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 15;
+    justify-self: left;
+}
+
+#mixersRecipe6{
+    display: none;
+    grid-column: 2 / span 2;
+    grid-row: 16;
+    justify-self: left;
+}
+
+#garnish{
+    grid-column: 1;
+    grid-row: 17;
+    justify-self: left;
+}
+
+#garnishRecipe{
+    grid-column: 2 / span 2;
+    grid-row: 17;
+    justify-self: left;
+}
+
+#garnishRecipe2{
+    grid-column: 2 / span 2;
+    grid-row: 18;
+    justify-self: left;
+}
+
+#garnishRecipe3{
+    grid-column: 2 / span 2;
+    grid-row: 19;
+    justify-self: left;
+}
+
+#garnishRecipe4{
+    grid-column: 2 / span 2;
+    grid-row: 20;
+    justify-self: left;
+}
+
+#garnishRecipe5{
+    grid-column: 2 / span 2;
+    grid-row: 21;
+    justify-self: left;
+}
+}
+
+/* Fire Tablet Resolution 1200 x 1920 */
+@media screen and (max-width: 1920px) and (orientation:landscape) {
+
+    #recipeInfoDiv{
+        width: 2%;
+        font-size: 2.5vh;
+    }
+
+    #drinkPhoto{
+        height: 63%;
+        margin-bottom: 10vh;
+    }
+
+    #recipeDiv{
+        margin-top: 4vh;
+        width: fit-content;
+    }
+
+    .recipe-container{
+        width: fit-content;
+        height: 5%;
+        font-size: 2.5vh;
+    }
+
+ }
+
+
+
+/* S22 Ultra Resolution 1440 x 3088 */
+
+
+
+/* lenovo tablet TB-8504f  1280 x 800 */
