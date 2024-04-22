@@ -232,7 +232,7 @@ body{
     height: 20vh;
     font-size: 2.75vh;
     border-radius: 12.5%;
-    border: 1vh outset rgb(25, 85, 104);
+    border: .5vh outset rgb(25, 85, 104);
     box-shadow: 1px 1px 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88);
     color: white;
     background-color: rgba(15, 68, 84, 0.85);
@@ -571,7 +571,7 @@ img[src="./images/logo.png"]{
     }
 
     #drinkPhoto{
-        height: 63%;
+        height: 50%;
         margin-bottom: 10vh;
     }
 
