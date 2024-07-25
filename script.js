@@ -58,7 +58,9 @@ class Drink{
    let afterHours = new Drink("After Hours", "Martini Glass", null, ["St. George Gin - 2 oz", "St. George Citrus Vodka - 1 oz", "Lillet Blanc - 1 oz"], null, null, ["Orange Peel"],null, null,["Instructions", "--------------------------------", "Add to Mixing Glass", "&", "Stir and Strain"]);
    let shanghaiStreetFight = new Drink("Shanghai Street Fight", "Rocks Glass", null, ["Rittenhouse Rye - 2 oz"], ["Fernet Branca - .5 oz", "Aperol - .5 oz"], ["Angostura Bitters - 1 Dash"], ["Orange Peel"],null, null,["Instructions", "--------------------------------", "Add to Mixing Glass", "&", "Stir and Strain Over Large Rock"]);
    let midnightHour = new Drink("Midnight Hour", "Coupe Glass", null, ["Plantation Dark Rum - 2 oz"], null, ["Lime Juice - .5 oz", "Five Spice Syrup - .5 oz"], ["Star Anise"],null, null,["Instructions", "--------------------------------", "Shake", "&", "Double Strain"]);   
+   let pjKiller = new Drink("PJ Killer", "Collins Glass", null, ["Coconut Rum - 1.5 oz"], ["Luxardo Cherry Liqeuer - .5 oz", "Drambuie - .25 oz", "Dry Vermouth - .25 oz"], ["Lime Juice - .75 oz", "Demerara Syrup - .5 oz", "Pineapple Juice - .5 oz"], ["Cinnamon Stick & Shavings"],null, null,null);
    let roseColoredGlasses = new Drink("Rose Colored Glasses", "Coupe Glass", null, ["Rose Vodka - 1.5 oz"], ["Cointreau - .75 oz", "Campari - .25 oz"], ["Lemon Juice - 1 oz", "Simple Syrup - .5 oz"], ["Gold Dust & Rose Bud"],null, null,["Instructions", "--------------------------------", "Shake", "&", "Double Strain", "--------------------------------", "Top with Honey Fig Foam"]);
+
 
 
 
@@ -365,6 +367,19 @@ class Drink{
         /* Batch */        null,
         /* Instructions */ null
         );
+    let robRoy = new Drink
+        (
+        /* Name */         "Rob Roy",
+        /* Glass */        "Nick & Nora or Cocktail Glass", 
+        /* Rim */          null, 
+        /* Liquor */       ["Scotch - 2 oz"],
+        /* Liqueuer */     ["Sweet Vermouth - .75 oz"], 
+        /* Mixers */       ["Angostura Bitters"],
+        /* Garnish */      ["Brandied Cherries"],
+        /* Image */        "./images/robRoy.png", 
+        /* Batch */        null,
+        /* Instructions */ null
+        );
    let rumRunner = new Drink
         (
         /* Name */         "Rum Runner",
@@ -384,6 +399,7 @@ class Drink{
         /* Instructions */ null
         );
    let sexOnTheBeach = new Drink("Sex On The Beach", "Hurricane Glass",null, ["Vodka - 1.5 oz"], ["Peach Schnapps - .5 oz"], ["Orange Juice - 2 oz,", "Cranberry Juice - 2 oz"], ["Cherry & Orange Slice"],"./images/sexOnTheBeach.png", null, null);
+   let sidecar = new Drink("Sidecar", "Couple Glass", "Sugar (Optional)", ["Cognac - 1.5 oz"], ["Cointreau - .75 oz"], ["Lemon Juice - .75 oz"], ["Orange Twist"],"./images/sidecar.png", null, null);
    let siesta = new Drink("Siesta", "Coupe Glass",null, ["Tequila ( Blanco ) - 2 oz"], ["Campari - .5 oz"],["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave or Simple Syrup - .5 oz"], ["Lime, Lemon or Grapefruit Wedge"],"./images/siesta.png", null, null);
    let vesper = new Drink
         (
@@ -422,7 +438,8 @@ class Drink{
        afterHours,
        roseColoredGlasses,
        shanghaiStreetFight,
-       midnightHour, 
+       midnightHour,
+       pjKiller,
 
        // Menu Drinks ************************
        houseMargarita,
@@ -512,8 +529,10 @@ class Drink{
        moscowMule,
        negroni,
        paperPlane,
+       robRoy,
        rumRunner,
        sexOnTheBeach,
+       sidecar,
        siesta,
        vesper
       ];
