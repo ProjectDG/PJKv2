@@ -241,7 +241,12 @@ body{
 
 .margarita-buttons{
     padding: 0% 3.25%;
-}  
+}
+
+#crouchingTiger{
+    border-color: rgb(101, 42, 12);
+    background-color: rgb(182, 74, 20);
+}
 
 .other-buttons{
     width: 12vw;
@@ -273,7 +278,7 @@ body{
 }
 
 #specialtyBtnDiv{
-    width: 80%;
+    width: 100%;
 }
 
 .mocktail-buttons{

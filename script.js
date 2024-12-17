@@ -49,16 +49,20 @@ class Drink{
    let sakeSangria = new Drink("Sake Sangria", "Wine Glass", null, ["Living Jewel Sake - 2 oz"], ["Domaine De Canton - .5 oz", "Chambord - .25 oz", "Dry Curacao - .25 oz"], ["Pineapple Juice - .75 oz", "Pomegranate Juice - .75 oz", "Lemon Juice .5 oz"], ["Pineapple Leaf &", "Dehydrated Orange"],null, null,["Instructions", "--------------------------------", "Splash of Soda in Glass", "--------------------------------", "Shake", "&", "Dirty Pour Over Soda"]);
    let thatYuzuThatYouDo = new Drink("That Yuzu, That You Do", "Rocks Glass", "Guest Choice", ["Milagro Silver - 2 oz"], ["Grand Marnier - .5 oz"], ["Lime Juice - .75","Yuzu Juice - .25 oz", "Agave - .25 oz"], ["Dehydrated Lime"],null, null,["Instructions", "--------------------------------", "Shake", "&", "Strain"]);
    let snowOnFuji = new Drink("Snow On Fuji", "Coupe Glass", null, ["Fuji Apple Gin - 2 oz"], null, ["Lemon Juice - 1 oz", "Lychee Syrup - .75 oz", "Albert Bichot Brut - (Topped)"], ["Lychee & Mint Spring"],null, null,["Instructions", "--------------------------------", "Shake", "&", "Double Strain"]);
-   let theButterflyEffect = new Drink("The Butterfly Effect", "Rocks Glass", null, ["Ilegal Mezcal - 1 oz"], ["St. Germain - .5 oz"], ["Egg White - 1", "Lemon Juice - .5 oz", "Lime Juice - .5 oz", "Simple Syrup - .5 oz"],null,null,null,["Instructions", "--------------------------------", "- Dry Shake","--------------------------------", "- Shake With Ice","--------------------------------", "- Let Settle & Top With 1/2 oz Butterfly Pea / Honeysuckle Gin"]);
+   let theButterflyEffect = new Drink("The Butterfly Effect", "Rocks Glass", null, ["Ilegal Mezcal - 1 oz"], ["St. Germain - .5 oz"], ["Egg White - 1", "Lemon Juice - .5 oz", "Lime Juice - .5 oz", "Simple Syrup - .5 oz"],null,null,null,["Instructions", "--------------------------------", "- Dry Shake","--------------------------------", "- Shake With Ice","--------------------------------", "- Pour Over Large Rock","--------------------------------", "- Let Settle & Top With 1/2 oz Butterfly Pea / Honeysuckle Gin"]);
    let upAllNight = new Drink("Up All Night", "Martini Glass", null, ["Milagro Reposado - 2 oz"], ["Borghettis Espresso - .75 oz", "Montenegro - .25 oz"], ["5 Spice Syrup - .5 oz"], ["Espresso Grounds & Beans"],null,null,["Instructions", "--------------------------------",  "Shake", "&", "Double Strain"]);
    let openSesame = new Drink("Open Sesame", "Rocks Glass", null, ["Sesame Gin - 1 oz", "St. George Terrior - 1 oz"], ["Domain De Canton - .5 oz", "Dry Curacao - .25 oz", "Lillet Blanc - .25 oz"], ["Lemon Bitters - 3 Dashes"], ["Flashed Orange Peel"],null,null,["Instructions", "--------------------------------",  "Mixing Glass", "--------------------------------", "Stir & Pour Over Large Rock"]);
    let pjkOldFashioned = new Drink("PJK Old Fashioned", "Rocks Glass", null, ["Rittenhouse Rye - 2.5 oz"], null, ["Angostura Bitters - 2 Dashes", "Orange Bitters - 2 Dashes", "Black Tea Syrup - .25 oz"], ["Orange Peel & Luxardo Cherry"],null,null,["Instructions", "--------------------------------",  "Mixing Glass", "--------------------------------", "Stir & Pour Over Large Rock"]);
+   let dragonsHive = new Drink("Dragon's Hive", "Coupe Glass", null, ["Dos Hombres Mezcal - 1.5 oz,", "Butterfly Pea / Honeysuckle Gin - .25 oz"], ["Chinola Passion Fruit - .5 oz"], ["Honey Syrup - .75 oz,", "Lemon Juice - 1 oz"], ["Unknown"], null, null, ["Instructions", "--------------------------------", "Shake", "&", "Double Strain"])
+   let zenInferno = new Drink("Zen Inferno", "Rocks Glass", "Tajin", ["Casamigos Reposado - 1.5 oz"], ["Cointreau - .75 oz"], ["Chili Tincture - 2 ea.,", "Lime Juice - .5 oz,", "Mango Puree - 1 oz,", "Pineapple Juice - .75 oz"], ["Pineapple Leaf & Mango"], null, null, ["Instructions", "--------------------------------", "Shake", "&", "Strain"])
+   let lotusBlossom = new Drink("Lotus Blossom", "Martini Glass", null, ["Gin or Vodka - 1.5 oz"], ["Sake - 1.5 oz", "Vermouth Blanc - .25 oz"], null, ["Unknown"], null, null, ["--------------------------------", "Instructions", "--------------------------------", "Shake", "&", "Double Strain", "--------------------------------", "Foam Batch", "--------------------------------", "Plum Wine - 6 oz,", "Agave - 5 oz,", "Lemon Juice - 3 oz"])
+   let crouchingTiger = new Drink("Crouching Tiger", "Pint Glass", null, null, null, ["Lime,", "Pineapple,", "Matcha Syrup,", "Shisho"], ["Unknown"], null, null, null)
 
    // PJK Originals ................................................................................................
    let afterHours = new Drink("After Hours", "Martini Glass", null, ["St. George Gin - 2 oz", "St. George Citrus Vodka - 1 oz", "Lillet Blanc - 1 oz"], null, null, ["Orange Peel"],null, null,["Instructions", "--------------------------------", "Add to Mixing Glass", "&", "Stir and Strain"]);
    let shanghaiStreetFight = new Drink("Shanghai Street Fight", "Rocks Glass", null, ["Rittenhouse Rye - 2 oz"], ["Fernet Branca - .5 oz", "Aperol - .5 oz"], ["Angostura Bitters - 1 Dash"], ["Orange Peel"],null, null,["Instructions", "--------------------------------", "Add to Mixing Glass", "&", "Stir and Strain Over Large Rock"]);
    let midnightHour = new Drink("Midnight Hour", "Coupe Glass", null, ["Plantation Dark Rum - 2 oz"], null, ["Lime Juice - .5 oz", "Five Spice Syrup - .5 oz"], ["Star Anise"],null, null,["Instructions", "--------------------------------", "Shake", "&", "Double Strain"]);   
-   let pjKiller = new Drink("PJ Killer", "Collins Glass", null, ["Coconut Rum - 1.5 oz"], ["Luxardo Cherry Liqeuer - .5 oz", "Drambuie - .25 oz", "Dry Vermouth - .25 oz"], ["Lime Juice - .75 oz", "Demerara Syrup - .5 oz", "Pineapple Juice - .5 oz"], ["Cinnamon Stick & Shavings"],null, null,null);
+   let pjKiller = new Drink("PJ Killer", "Collins Glass", null, ["Coconut Rum - 1.5 oz"], ["Luxardo Cherry Liqueur - .5 oz", "Drambuie - .25 oz", "Dry Vermouth - .25 oz"], ["Lime Juice - .75 oz", "Demerara Syrup - .5 oz", "Pineapple Juice - .5 oz"], ["Cinnamon Stick & Shavings"],null, null,null);
    let roseColoredGlasses = new Drink("Rose Colored Glasses", "Coupe Glass", null, ["Rose Vodka - 1.5 oz"], ["Cointreau - .75 oz", "Campari - .25 oz"], ["Lemon Juice - 1 oz", "Simple Syrup - .5 oz"], ["Gold Dust & Rose Bud"],null, null,["Instructions", "--------------------------------", "Shake", "&", "Double Strain", "--------------------------------", "Top with Honey Fig Foam"]);
 
 
@@ -426,6 +430,7 @@ class Drink{
        shisoLovely,
        empressWu,
        callMeKoko,
+       dragonsHive,
        sakeSangria,
        thatYuzuThatYouDo,
        snowOnFuji,
@@ -433,6 +438,9 @@ class Drink{
        upAllNight,
        openSesame,
        pjkOldFashioned,
+       zenInferno,
+       lotusBlossom,
+       crouchingTiger,
 
        // PJK Originals **********************
        afterHours,
@@ -982,6 +990,10 @@ class Drink{
     
                         if(x["name"] === "French 75"){
                             $("#rim").text("").append('<p id="rim"><span style="text-decoration: underline;">Wine</span> :</p>');
+                        }
+
+                        if(x["name"] === "Lotus Blossom"){
+                            $("#liqueur").text("").append('<p id="rim"><span style="text-decoration: underline;">Wine</span> :</p>');
                         }
                       
                         
