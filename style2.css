@@ -11,14 +11,14 @@
   
 body {
     font-size: 14px;
-    background-image: url("./images/japan.png");
+    background-image: url("./images/background.png");
     background-size: 105% 120%;
     display: block;
     height: 97vh;
   }
 
   ::backdrop {
-    background-image: url("./images/japan.png");
+    background-image: url("./images/background.png");
     background-size: 100% 120%;
     display: block;
   }  
@@ -34,7 +34,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("./images/japan.png");
+        background-image: url("./images/background.png");
         background-size: 170% 110%;
     }
     
@@ -172,8 +172,8 @@ body {
 
 body{
     display: block;
-    background-image: url("./images/japan.png");
-    background-size: 140%;
+    background-image: url("./images/background.png");
+    background-size: 100%;
 }
 
 
@@ -193,13 +193,13 @@ body{
 }
 
 .nav-buttons{
-    border: 1vh outset rgb(227, 191, 127);
+    border: 1vh outset rgb(25, 85, 104);
     color: antiquewhite;
-    background-color: rgba(54, 45, 31, 0.809);
+    background-color: rgb(2, 40, 51);
     margin: 0 auto;
     height: 12vh;
     width: 49%;
-    font-size: 3.5vh;
+    font-size: 3vh;
     text-align: center;
     padding: 0 2%;
 }
@@ -217,8 +217,8 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1vh outset rgb(227, 191, 127);
-    background-color: rgb(54, 45, 31, 0.809);
+    border: 1vh outset rgb(25, 85, 104);
+    background-color: rgb(38, 127, 154, .85);
     margin: auto;
     width: 90%;
     height: 55vh;
@@ -232,10 +232,10 @@ body{
     height: 20vh;
     font-size: 2.75vh;
     border-radius: 12.5%;
-    border: .5vh outset rgb(227, 191, 127);
-    /* box-shadow: 1px 1px 5px rgb(109, 28, 59), 0 0 5px rgb(109, 28, 59), 0 0 5px rgb(88, 88, 88); */
+    border: .5vh outset rgb(25, 85, 104);
+    box-shadow: 1px 1px 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88);
     color: white;
-    background-color: rgba(112, 73, 11, 0.85);
+    background-color: rgba(15, 68, 84, 0.85);
     cursor: pointer;
   }
 
@@ -308,8 +308,8 @@ body{
     height: fit-content;
     width: fit-content;
     padding: 1vh 4vw;
-    background-color: rgba(112, 73, 11, 0.85);
-    font-size: 3vh;
+    background-color: rgba(9, 69, 87, 0.85);
+    font-size: 4vh;
 }
 
 #list{
