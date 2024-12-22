@@ -35,7 +35,7 @@ body {
         justify-content: center;
         align-items: center;
         background-image: url("./images/japan.png");
-        background-size: 170% 110%;
+        background-size: 300% 110%;
     }
     
 
@@ -67,7 +67,7 @@ body {
 
 
     #portraitButtonDiv{
-        border: 4px outset rgb(122, 113, 113);
+        border: 4px outset rgb(227, 191, 127);
         margin: 5%;
         padding: 3%;
         height: 30%;
@@ -75,7 +75,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(54, 45, 31, 0.809);
     }
 
     .portraitButtons{
@@ -110,10 +110,10 @@ body {
 
     #portraitContainer{
         height: fit-content;
-        border: 1vh outset rgb(25, 85, 104);
+        border: 1vh outset rgb(227, 191, 127);
         margin: 0% 10%;
         text-align: center;
-        background-color: rgb(38, 127, 154, .85);
+        background-color: rgb(54, 45, 31, 0.809);
         align-items: center;
         justify-content: center;
         padding: 8%;
