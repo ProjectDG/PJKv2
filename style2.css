@@ -178,9 +178,33 @@ body{
 
 
 #mainContainter{
-    height: 70%;
+    height: 65%;
 }
 
+#menuDiv{
+    /* border: 2px solid red; */
+    height: 8vh;
+    width: 4vw;
+    font-size: 6vh;
+    position: fixed;
+    top: 5vh;
+    left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuDiv:hover{
+    cursor: pointer;
+}
+
+#fa{
+    padding: 2vh;
+}
+
+#topNavContainer{
+    width: 90vw;
+}
 
 /* Navigation */
 .nav-containers{
@@ -199,7 +223,7 @@ body{
     margin: 0 auto;
     height: 12vh;
     width: 49%;
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-align: center;
     padding: 0 2%;
 }
@@ -309,7 +333,7 @@ body{
     width: fit-content;
     padding: 1vh 4vw;
     background-color: rgba(9, 69, 87, 0.85);
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 #list{

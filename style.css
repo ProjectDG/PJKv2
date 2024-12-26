@@ -178,18 +178,43 @@ body{
 
 
 #mainContainter{
-    height: 70%;
+    height: 65%;
+}
+
+#menuDiv{
+    /* border: 2px solid red; */
+    height: 8vh;
+    width: 4vw;
+    font-size: 6vh;
+    position: fixed;
+    top: 5vh;
+    left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuDiv:hover{
+    cursor: pointer;
+}
+
+#fa{
+    padding: 2vh;
 }
 
 
 /* Navigation */
 .nav-containers{
     margin: 1% auto;
-    width: 95%;
+    width: 94%;
     height: 14vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#topNavContainer{
+    width: 90vw;
 }
 
 .nav-buttons{
@@ -345,8 +370,8 @@ body{
 
 #drinkPhoto{
     margin-bottom: 5vh;
-    border: 1vh outset rgb(25, 85, 104);
-    box-shadow: 1px 1px 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88);
+    border: 1vh outset rgb(227, 191, 127);
+    box-shadow: 5px 5px 5px rgb(120, 68, 0), 10 10 5px rgb(120, 68, 0), 10 10 5px rgb(120, 68, 0);
     max-width: auto;
     height: 45vh;
     /*display: block;*/

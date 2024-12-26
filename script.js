@@ -1282,4 +1282,18 @@ class Drink{
             $(".button-container").show();
             openFullscreen();
         });
+
+
+        $(".fa").click(function(){
+            let theme = document.getElementById("theme");
+            if (theme.getAttribute('href') == 'style.css') {
+                theme.setAttribute('href', 'style2.css');
+            } else {
+                theme.setAttribute('href', 'style.css');
+            }
+        });
+
+
+
+
     }); // jQuery end tag 
