@@ -43,7 +43,8 @@ body {
     #otherBtnDiv,
     #drinkPhoto,
     #mainButtonContainer,
-    #clear{
+    #clear,
+    #menuDiv{
     display: none;
     }
 

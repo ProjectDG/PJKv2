@@ -1288,6 +1288,8 @@ class Drink{
             let theme = document.getElementById("theme");
             if (theme.getAttribute('href') == 'style.css') {
                 theme.setAttribute('href', 'style2.css');
+            } else if (theme.getAttribute('href') == 'style2.css') {
+                theme.setAttribute('href', 'style3.css');
             } else {
                 theme.setAttribute('href', 'style.css');
             }
